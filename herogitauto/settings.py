@@ -3,7 +3,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'gm71(2(@(14)#a@143go%*c#qyxzs+6vfw7_4jmk$7ou1cnl(9'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['herokugitautodeploy.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
